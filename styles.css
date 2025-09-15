@@ -32,7 +32,6 @@ body {
 
 .app-icon:hover {
   transform: scale(1.2);
-  box-shadow: 0 6px 25px #00f, 0 0 15px #00f;
 }
 
 .app-icon img {
