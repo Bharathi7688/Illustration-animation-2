@@ -67,7 +67,7 @@ function initPositions() {
 
 // Randomly integrate 2 or 3 icons into center
 function integrateIcons() {
-  const num = Math.floor(Math.random() * 2) + 2; // 2 or 3
+  const num = Math.floor(Math.random() * 1) + 2; // 2 or 3
   const availableIcons = icons.filter(i => !i.integrating);
   if (availableIcons.length < num) return;
 
