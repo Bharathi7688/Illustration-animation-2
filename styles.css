@@ -24,7 +24,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 4px rgba(0, 0, 255, 0.282);
   cursor: pointer;
   z-index: 10;
   animation: pulse-icon 2s ease-in-out infinite;
@@ -32,12 +32,12 @@ body {
 
 .app-icon:hover {
   transform: scale(1.2);
-  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.4), 0 0 15px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 6px 25px #00f, 0 0 15px #00f;
 }
 
 .app-icon img {
   max-width: 45px;
-  max-height: 45px;
+  max-height: 45px;   
 }
 
 .central-object {
@@ -121,7 +121,7 @@ body {
     opacity: 0.4;
   }
   100% {
-    background-color: #00f;
+    background-color: hsl(240, 100%, 50%);
     box-shadow: 0 0 10px #00f, 0 0 20px #00f;
     opacity: 1;
   }
