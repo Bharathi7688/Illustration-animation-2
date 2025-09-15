@@ -19,12 +19,12 @@ body {
   position: absolute;
   width: 70px;
   height: 70px;
-  background: white;
+  background: rgb(255, 255, 255);
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 2px 2px 4px rgba(0, 0, 255, 0.282);
+  box-shadow: 2px 2px 4px rgba(0, 53, 233, 0.25);
   cursor: pointer;
   z-index: 10;
   animation: pulse-icon 2s ease-in-out infinite;
